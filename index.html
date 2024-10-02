@@ -37,7 +37,7 @@
 			<a href="#about" class="prt_top">about</a>
 			<a href="#contact" class="prt_right">contact</a>
 			<a href="#services" class="prt_bottom">strength</a>
-			<a href="#portfolio" class="prt_left">portfolio</a>
+			<a id="portfolioLink" class="prt_left">portfolio</a>
 		</div>
 		<div class="container">
 			<div class="row">
@@ -692,6 +692,12 @@
 	</div>
 </div>
 <!--Main js file Style--> 
+<script>
+    document.getElementById('portfolioLink').addEventListener('click', function(event) {
+        event.preventDefault();  // Prevent default anchor behavior
+        window.location.href = 'portfolio.html';  // Redirect to portfolio.html
+    });
+</script>
 <script type="text/javascript" src="js/jquery.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
