@@ -64,7 +64,7 @@ Assigned to: ThemeForest
 			number: 90,
 			text: '90%',
 			width: 8,
-			colors: ["#202020", "#00c8ff"],
+			colors: ["#202020", "#ff8511"],
 			duration: 900
 		});
 		var circle2 = Circles.create({
@@ -74,7 +74,7 @@ Assigned to: ThemeForest
 			number: 80,
 			text: '80%',
 			width: 8,
-			colors: ["#202020", "#ff8511"],
+			colors: ["#202020", "#00c8ff"],
 			duration: 900
 		});
 		var circle3 = Circles.create({
@@ -94,7 +94,47 @@ Assigned to: ThemeForest
 			number: 70,
 			text: '70%',
 			width: 8,
+			colors: ["#202020", "#00c8ff"],
+			duration: 900
+		});
+		var circle5 = Circles.create({
+			id: 'circles-5',
+			value: 90,
+			radius: 100,
+			number: 70,
+			text: '90%',
+			width: 8,
 			colors: ["#202020", "#1d8bbe"],
+			duration: 900
+		});
+		var circle6 = Circles.create({
+			id: 'circles-6',
+			value: 90,
+			radius: 100,
+			number: 90,
+			text: '90%',
+			width: 8,
+			colors: ["#202020", "#f26525"],
+			duration: 900
+		});
+		var circle7 = Circles.create({
+			id: 'circles-7',
+			value: 80,
+			radius: 100,
+			number: 80,
+			text: '80%',
+			width: 8,
+			colors: ["#202020", "#1d8bbe"],
+			duration: 900
+		});
+		var circle8 = Circles.create({
+			id: 'circles-8',
+			value: 85,
+			radius: 100,
+			number: 85,
+			text: '85%',
+			width: 8,
+			colors: ["#202020", "#ff8511"],
 			duration: 900
 		});
 	});

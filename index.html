@@ -246,12 +246,12 @@
 							<h1>How we can help you ?</h1>
 							<div class="prt_contact_form">
 								<div class="row">
-									<form>
+									<form  id="contactForm" action="https://formspree.io/f/manywqvy" method="POST">
 										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 											<input type="text" name="first_name" placeholder="Your Name" class="require">
 										</div>
 										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-											<input type="text" name="email" placeholder="Your Email" class="require" data-valid="email" data-error="Email should be valid.">
+											<input type="email" name="email" placeholder="Your Email" class="require" data-valid="email" data-error="Email should be valid.">
 										</div>
 										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 											<input type="text" name="subject" placeholder="Subject" class="require">
@@ -260,10 +260,7 @@
 											<textarea rows="4" name="message" placeholder="Message" class="require"></textarea>
 										</div>
 										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<div class="response"></div>
-										</div>
-										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<button type="button" class="prt_btn submitForm" form-type="contact">submit</button>
+											<button type="submit" class="prt_btn submitForm">Submit</button>
 										</div>
 									</form>
 								</div>
@@ -338,30 +335,31 @@
 						<div class="row row_service_space">
 							<div class="col-lg-6 col-md-12">
 								<div class="prt_services_slider_text prt_img_click" id="1">
-									<img src="images/serv_icon1.png" alt="Service icon">
-									<h4>Website Design</h4>
-									<p>It is a long established fact that a reader will be distracted</p>
+									<img src="images/web_icon.png" alt="Service icon">
+									<h4>Custom Web Application Development</h4>
+									<p> I build tailored, scalable web apps for businesses, focusing on functionality and growth.</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-12">
 								<div class="prt_services_slider_text prt_img_click" id="2">
-									<img src="images/serv_icon2.png" alt="Service icon">
-									<h4>Graphic Design</h4>
-									<p>It is a long established fact that a reader will be distracted</p>
+									<img src="images/backend_icon.png" alt="Service icon">
+									<h4>Back-End Development with Laravel</h4>
+									<p> I create secure, efficient back-end systems, handling database management and business logic.
+									</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-12">
 								<div class="prt_services_slider_text prt_img_click" id="3">
-									<img src="images/serv_icon3.png" alt="Service icon">
-									<h4>Logo Design</h4>
-									<p>It is a long established fact that a reader will be distracted</p>
+									<img src="images/api_icon.png" alt="Service icon">
+									<h4>API Integration & Development</h4>
+									<p>I optimize MySQL and PostgreSQL databases for speed and performance.</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-12">
 								<div class="prt_services_slider_text prt_img_click" id="4">
-									<img src="images/serv_icon4.png" alt="Service icon">
-									<h4>Web Development</h4>
-									<p>It is a long established fact that a reader will be distracted</p>
+									<img src="images/seo_icon.png" alt="Service icon">
+									<h4>SEO & Performance Optimization</h4>
+									<p> I implement SEO best practices and optimize site performance for faster load times.</p>
 								</div>
 							</div>
 						</div>
@@ -396,7 +394,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="prt_skills_wrapper  ">
+		<div class="prt_skills_wrapper">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -410,19 +408,37 @@
 					<div id="canvas">
 						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
 							<div class="circle" id="circles-1"></div>
-							<h5>Photoshop</h5>
+							<h5>Laravel</h5>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
 							<div class="circle" id="circles-2"></div>
-							<h5>Illustrator</h5>
+							<h5>Database Design & Management</h5>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
 							<div class="circle" id="circles-3"></div>
-							<h5>Html &amp; Css</h5>
+							<h5>API &amp; Development</h5>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
 							<div class="circle" id="circles-4"></div>
-							<h5>WordPress</h5>
+							<h5>JavaScript / ES6</h5>
+						</div>
+					</div>
+					<div id = "canvas">
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+							<div class="circle" id="circles-5"></div>
+							<h5>Version &amp; Control</h5>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+							<div class="circle" id="circles-6"></div>
+							<h5>HTML5 &amp; CSS3</h5>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+							<div class="circle" id="circles-7"></div>
+							<h5>AJAX &amp; jQuery</h5>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+							<div class="circle" id="circles-8"></div>
+							<h5>Wordpress</h5>
 						</div>
 					</div>
 				</div>
@@ -443,22 +459,22 @@
 						<div class="prt_client_slider">
 							<div class="owl-carousel owl-theme">
 								<div class="item">
-									<a href=""><img src="images/client1.png" alt="Client"></a>
+									<a href=""><img src="images/consentio.png" alt="Client"></a>
 								</div>
 								<div class="item">
-									<a href=""><img src="images/client2.png" alt="Client"></a>
+									<a href=""><img src="images/uk.webp" alt="Client"></a>
 								</div>
 								<div class="item">
-									<a href=""><img src="images/client3.png" alt="Client"></a>
+									<a href=""><img src="images/club.webp" alt="Client"></a>
 								</div>
 								<div class="item">
-									<a href=""><img src="images/client4.png" alt="Client"></a>
+									<a href=""><img src="images/beet.webp" alt="Client"></a>
 								</div>
 								<div class="item">
-									<a href=""><img src="images/client5.png" alt="Client"></a>
+									<a href=""><img src="images/card'.webp" alt="Client"></a>
 								</div>
 								<div class="item">
-									<a href=""><img src="images/client3.png" alt="Client"></a>
+									<a href=""><img src="images/d3.png" alt="Client"></a>
 								</div>
 							</div>
 						</div>
@@ -470,7 +486,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<p>Copyright © 2022 <a href="#">Portfolio</a>. All Rights Reserved</p>
+						<p>Copyright © 2024 <a href="#">Portfolio</a>. All Rights Reserved</p>
 						<ul>
 							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -676,7 +692,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<p>Copyright © 2022 <a href="#">Portfolio</a>. All Rights Reserved</p>
+						<p>Copyright © 2024 <a href="#">Portfolio</a>. All Rights Reserved</p>
 						<ul>
 							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -702,6 +718,49 @@
         event.preventDefault();  // Prevent default anchor behavior
         window.location.href = 'portfolio/index.html';  // Redirect to portfolio
     });
+
+	document.getElementById('contactForm').addEventListener('submit', function (e) {
+    e.preventDefault(); // Prevent the default form submission
+    
+    const form = e.target;
+    const formData = new FormData(form);
+
+    // Form validation
+    const requiredFields = document.querySelectorAll('.require');
+    let isValid = true;
+    
+    requiredFields.forEach(function (field) {
+        if (field.value === '') {
+            field.classList.add('error'); // Add an error class if field is empty
+            isValid = false;
+        } else {
+            field.classList.remove('error'); // Remove error class if field is filled
+        }
+    });
+
+    if (!isValid) {
+        alert('Please fill in all required fields.');
+        return;
+    }
+
+    // Sending form data using Fetch API
+    fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+    }).then(response => {
+        if (response.ok) {
+            alert('Thank you! Your message has been sent.');
+            form.reset(); // Clear the form after successful submission
+        } else {
+            alert('Oops! There was a problem submitting your form.');
+        }
+    }).catch(error => {
+        alert('Oops! There was a problem submitting your form.');
+    });
+});
 </script>
 <script type="text/javascript" src="js/jquery.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script>

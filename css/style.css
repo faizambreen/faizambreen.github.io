@@ -1053,27 +1053,55 @@ input:focus, textarea:focus, select:focus, button:focus {
 	text-align:center;
 }
 #circles-1{
-	background-image:url(../images/progress_1.png);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(../images/laravel.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-2{
-	background-image:url(../images/progress_2.png);
+	background-image:linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url(../images/db.jpeg);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-3{
-	background-image:url(../images/progress_3.png);
+	background-image:linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url(../images/api.jpeg);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-4{
+	background-image:linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url(../images/js.jpeg);
+	border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#circles-5{
+	background-image:linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url(../images/gitt.png);
+	border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#circles-6{
+	background-image:linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url(../images/html.png);
+	border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#circles-7{
+	background-image:linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url(../images/jquery.webp);
+	border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#circles-8{
 	background-image:url(../images/progress_4.png);
 	border-radius: 100%;
     background-position: center;
